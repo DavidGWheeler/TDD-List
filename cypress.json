@@ -1,0 +1,12 @@
+{
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "baseUrl": "http://localhost:4200",
+  "video": true,
+  "reporter": "karma-junit-reporter",
+  "reporterOptions": {
+    "mochaFile": "results/test_run.xml",
+    "toConsole": true
+  },
+  "watchForFileChanges": true
+}{}
